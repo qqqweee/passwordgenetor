@@ -1,0 +1,52 @@
+.container{
+  color: #fff;
+  padding: 40px 30px;
+  width: 30%;
+  margin: auto;
+  border-radius: 5px;
+  background-color:#000;
+  font-family: sans-serif;
+}
+
+
+.header{
+  padding: 10px 10px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+
+}
+.buttons{
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: rgb(29, 221, 93);
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  transition: all ease-in ;
+}
+.buttons:hover:active{
+ background-color: rgb(8, 95, 8);
+}
+.btn1{
+  font-size: 1.4vw;
+  width: 100%;
+  padding: 20px 30px;
+}
+.charlen{
+  display: flex;
+  justify-content: space-between;
+}
+.ranger{
+  width: 100%;
+}
+.footer{
+  text-transform: capitalize;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
